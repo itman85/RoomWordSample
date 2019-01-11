@@ -22,7 +22,11 @@ Because the result returned from the query is observed LiveData, every time the 
 https://codelabs.developers.google.com/codelabs/android-room-with-a-view/#16
 
 Guide to App Architecture
+
 Android Architecture overview (video)
+
 Android Persistence codelab (LiveData, Room, DAO)
+
 Android lifecycle-aware components codelab (ViewModel, LiveData, LifecycleOwner, LifecycleRegistryOwner)
+
 Architecture Component code samples
