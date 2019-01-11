@@ -18,3 +18,10 @@ The Repository manages one or more data sources. In the WordListSample app, that
 The DAO maps method calls to database queries, so that when the Repository calls a method such as getAllWords(), Room can execute SELECT * from word_table ORDER BY word ASC.
 
 Because the result returned from the query is observed LiveData, every time the data in Room changes, the Observer interface's onChanged() method is executed and the UI updated.
+
+https://codelabs.developers.google.com/codelabs/android-room-with-a-view/#16
+Guide to App Architecture
+Android Architecture overview (video)
+Android Persistence codelab (LiveData, Room, DAO)
+Android lifecycle-aware components codelab (ViewModel, LiveData, LifecycleOwner, LifecycleRegistryOwner)
+Architecture Component code samples
