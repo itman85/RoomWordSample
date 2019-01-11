@@ -20,6 +20,7 @@ The DAO maps method calls to database queries, so that when the Repository calls
 Because the result returned from the query is observed LiveData, every time the data in Room changes, the Observer interface's onChanged() method is executed and the UI updated.
 
 https://codelabs.developers.google.com/codelabs/android-room-with-a-view/#16
+
 Guide to App Architecture
 Android Architecture overview (video)
 Android Persistence codelab (LiveData, Room, DAO)
