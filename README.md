@@ -3,6 +3,7 @@ This app using architecture component: room,live data, lifecycle
 this app build from this guide
 https://codelabs.developers.google.com/codelabs/android-room-with-a-view/#0
 In this app using livedata from room, when room insert data, data will update to ui
+
 Flow of Data for Automatic UI Updates (Reactive UI)
 The automatic update is possible because we are using LiveData. In the MainActivity, there is an Observer that observes the words LiveData from the database and is notified when they change. When there is a change, the observer's onChange() method is executed and updates mWords in the WordListAdapter.
 
